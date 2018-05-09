@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MMDatabaseKit_Example' do
+  pod 'MMDatabaseKit', :path => '../'
+
+  target 'MMDatabaseKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
