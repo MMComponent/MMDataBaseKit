@@ -1,0 +1,27 @@
+{
+  "name": "MMDatabaseKit",
+  "version": "1.0",
+  "summary": "A short description of MMDatabaseKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/MMComponent/MMDatabaseKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "boxytt": "14ktyang@stu.edu.cn"
+  },
+  "source": {
+    "git": "https://github.com/MMComponent/MMDatabaseKit.git",
+    "tag": "1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MMDatabaseKit/Classes/**/*",
+  "dependencies": {
+    "WCDB": [
+
+    ]
+  }
+}

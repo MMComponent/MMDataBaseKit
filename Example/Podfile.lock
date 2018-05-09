@@ -1,0 +1,21 @@
+PODS:
+  - MMDatabaseKit (1.0):
+    - WCDB
+  - WCDB (1.0.6):
+    - WCDB/sqlcipher (= 1.0.6)
+  - WCDB/sqlcipher (1.0.6)
+
+DEPENDENCIES:
+  - MMDatabaseKit (from `../`)
+
+EXTERNAL SOURCES:
+  MMDatabaseKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MMDatabaseKit: 45f1054c963f94f39129478df5458c7f694dfd16
+  WCDB: 4d2926bf695b2e00d785b50afd32c2dcc8cbbd98
+
+PODFILE CHECKSUM: 62661eec2f03effd325ca1f915dca6aca27bae97
+
+COCOAPODS: 1.4.0

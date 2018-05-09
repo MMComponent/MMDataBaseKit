@@ -323,10 +323,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MMDatabaseKit_Example/Pods-MMDatabaseKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/MMDatabaseKit/MMDatabaseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/WCDB/WCDB.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MMDatabaseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WCDB.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
