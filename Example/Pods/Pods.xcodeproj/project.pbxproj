@@ -247,7 +247,7 @@
 		8767E98C655AB9610976CFB1DDAB869B /* WCTBinding.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6B8ECB078263B9731CE5EA69B4A62AE1 /* WCTBinding.mm */; };
 		876DCE53665EB6067512953F869F1949 /* WCTInterface+Convenient.h in Headers */ = {isa = PBXBuildFile; fileRef = 608B799E073F82245B4F9F025A0C15BA /* WCTInterface+Convenient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		879022CB0F97E0D8D0E9B85BA8A533FE /* column_result.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DCB5901812DCB9C63D9ECA03BBB08F24 /* column_result.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
-		879CDACE20B5C0AF001324BB /* MMDatabaseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 879CDACD20B5C0AF001324BB /* MMDatabaseKit.h */; };
+		879CDACE20B5C0AF001324BB /* MMDatabaseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 879CDACD20B5C0AF001324BB /* MMDatabaseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		87C3A6FFDEDEAF7B46C58D4CCA6976A1 /* WCTTable+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FA20705753859F44CA873E4B79A4C7D /* WCTTable+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		888047F04F440A1541B96D9156DF1D98 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8071724B515C35F2484C9FC9CD90D52C /* main.c */; };
 		88D520FEB59F775B38484AFE78B8C039 /* WCTSequence+WCTTableCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 23070FA714DBD7B8CA8C89DE23B2934B /* WCTSequence+WCTTableCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
