@@ -8,6 +8,6 @@
 #ifndef MMDatabaseKit_h
 #define MMDatabaseKit_h
 
-#import <WCDB/WCDB.h>
+//#import <WCDB/WCDB.h>
 
 #endif /* MMDatabaseKit_h */

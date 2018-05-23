@@ -1418,8 +1418,8 @@
 		9C4CED326E3351647BF2A9037104405F /* MMDatabaseKit */ = {
 			isa = PBXGroup;
 			children = (
-				879CDACD20B5C0AF001324BB /* MMDatabaseKit.h */,
 				6E95BA843B84400E057048CFB173584F /* ReplaceMe.m */,
+				879CDACD20B5C0AF001324BB /* MMDatabaseKit.h */,
 				6C9C26B73098452B6339ADBFD1FC443C /* Pod */,
 				EDD045AB55DD4D4F143D9D73291B507D /* Support Files */,
 				C7907536DE65AD3D60803C47D508E19C /* 数据库 */,
@@ -2519,6 +2519,11 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/WCDB/WCDB-prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers/Private\"",
+					"\"${SRCROOT}\"/**",
+					"\"${PODS_ROOT}/Headers/Public\"",
+				);
 				INFOPLIST_FILE = "Target Support Files/WCDB/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -2582,6 +2587,11 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/WCDB/WCDB-prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers/Private\"",
+					"\"${SRCROOT}\"/**",
+					"\"${PODS_ROOT}/Headers/Public\"",
+				);
 				INFOPLIST_FILE = "Target Support Files/WCDB/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
