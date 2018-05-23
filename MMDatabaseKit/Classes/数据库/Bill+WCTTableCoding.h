@@ -7,7 +7,7 @@
 //
 
 #import "Bill.h"
-#import <WCDB/WCDB.h>
+#import "MMDatabaseKit.h"
 
 @interface Bill (WCTTableCoding) <WCTTableCoding>
 

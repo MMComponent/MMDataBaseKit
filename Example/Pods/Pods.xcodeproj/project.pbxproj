@@ -247,6 +247,7 @@
 		8767E98C655AB9610976CFB1DDAB869B /* WCTBinding.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6B8ECB078263B9731CE5EA69B4A62AE1 /* WCTBinding.mm */; };
 		876DCE53665EB6067512953F869F1949 /* WCTInterface+Convenient.h in Headers */ = {isa = PBXBuildFile; fileRef = 608B799E073F82245B4F9F025A0C15BA /* WCTInterface+Convenient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		879022CB0F97E0D8D0E9B85BA8A533FE /* column_result.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DCB5901812DCB9C63D9ECA03BBB08F24 /* column_result.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		879CDACE20B5C0AF001324BB /* MMDatabaseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 879CDACD20B5C0AF001324BB /* MMDatabaseKit.h */; };
 		87C3A6FFDEDEAF7B46C58D4CCA6976A1 /* WCTTable+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FA20705753859F44CA873E4B79A4C7D /* WCTTable+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		888047F04F440A1541B96D9156DF1D98 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8071724B515C35F2484C9FC9CD90D52C /* main.c */; };
 		88D520FEB59F775B38484AFE78B8C039 /* WCTSequence+WCTTableCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 23070FA714DBD7B8CA8C89DE23B2934B /* WCTSequence+WCTTableCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -738,6 +739,7 @@
 		85F3EB2E061B0535618EEC089EF12EAA /* statement.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = statement.hpp; path = objc/WCDB/abstract/statement.hpp; sourceTree = "<group>"; };
 		8749EF5F859A6408472BF2618D843F1D /* fts3_hash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fts3_hash.h; path = sqlcipher/ext/fts3/fts3_hash.h; sourceTree = "<group>"; };
 		878ECCEBA327BEB81BCC66687CA651D7 /* WCTIndexBinding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTIndexBinding.h; path = objc/WCDB/interface/orm/binding/WCTIndexBinding.h; sourceTree = "<group>"; };
+		879CDACD20B5C0AF001324BB /* MMDatabaseKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMDatabaseKit.h; sourceTree = "<group>"; };
 		8920C55BDCCFB12B789C2F2D156CCF79 /* WCTSelectBase.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = WCTSelectBase.mm; path = objc/WCDB/interface/chaincall/WCTSelectBase.mm; sourceTree = "<group>"; };
 		898AD521548F68B02BD5BDC457AB8AF0 /* status.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = status.c; path = sqlcipher/src/status.c; sourceTree = "<group>"; };
 		89AE21B364F4B10398723579D817B8E8 /* mutex_noop.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mutex_noop.c; path = sqlcipher/src/mutex_noop.c; sourceTree = "<group>"; };
@@ -1416,6 +1418,7 @@
 		9C4CED326E3351647BF2A9037104405F /* MMDatabaseKit */ = {
 			isa = PBXGroup;
 			children = (
+				879CDACD20B5C0AF001324BB /* MMDatabaseKit.h */,
 				6E95BA843B84400E057048CFB173584F /* ReplaceMe.m */,
 				6C9C26B73098452B6339ADBFD1FC443C /* Pod */,
 				EDD045AB55DD4D4F143D9D73291B507D /* Support Files */,
@@ -1841,6 +1844,7 @@
 				D2E556D93E2D1A490E4FA6C184FE7526 /* Account.h in Headers */,
 				8160964A4A07B0A1B43B6209475F7E61 /* Bill+WCTTableCoding.h in Headers */,
 				BD81836C5344A595F67543F67FCCAF68 /* Bill.h in Headers */,
+				879CDACE20B5C0AF001324BB /* MMDatabaseKit.h in Headers */,
 				A026C023796545AC406A761FBD0756A0 /* Book+WCTTableCoding.h in Headers */,
 				F4E9E86FDFF89F73827A1B9FC1999F6A /* Book.h in Headers */,
 				0224F1367820BD07C538A28573D29F95 /* MMDatabaseKit-umbrella.h in Headers */,
@@ -2294,6 +2298,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"${PODS_ROOT}/WCDB",
+					"${SRCROOT}/**",
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Private\"",
 					"\"${PODS_ROOT}/Headers/Public\"",
@@ -2613,6 +2618,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"${PODS_ROOT}/WCDB",
+					"${SRCROOT}/**",
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Private\"",
 					"\"${PODS_ROOT}/Headers/Public\"",

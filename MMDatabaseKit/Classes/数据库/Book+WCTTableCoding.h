@@ -7,7 +7,7 @@
 //
 
 #import "Book.h"
-#import <WCDB/WCDB.h>
+#import "MMDatabaseKit.h"
 
 @interface Book (WCTTableCoding) <WCTTableCoding>
 
