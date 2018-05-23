@@ -18,10 +18,5 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "MMDatabaseKit/Classes/**/*",
-  "dependencies": {
-    "WCDB": [
-
-    ]
-  }
+  "source_files": "MMDatabaseKit/Classes/**/*"
 }
