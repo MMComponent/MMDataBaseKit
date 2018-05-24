@@ -1,5 +1,5 @@
 PODS:
-  - MMDatabaseKit (1.0)
+  - MMDatabaseKit (2.3)
   - WCDB (1.0.6):
     - WCDB/sqlcipher (= 1.0.6)
   - WCDB/sqlcipher (1.0.6)
@@ -21,7 +21,7 @@ CHECKOUT OPTIONS:
     :git: https://github.com/Tencent/wcdb.git
 
 SPEC CHECKSUMS:
-  MMDatabaseKit: 06cf6aee3ca544c28fef9c2df43bd6e2439baa20
+  MMDatabaseKit: a02fcde92a86360628b8eaef76655286fc4705e0
   WCDB: 4d2926bf695b2e00d785b50afd32c2dcc8cbbd98
 
 PODFILE CHECKSUM: 05057e27beae050d58ba559bec694152f244a693

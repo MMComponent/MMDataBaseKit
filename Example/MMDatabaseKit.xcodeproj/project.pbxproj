@@ -23,6 +23,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		801D64E878494A01E5445202 /* Pods_MMDatabaseKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE44027548B63E2CC724AFB /* Pods_MMDatabaseKit_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		87A7BE3620B6651500656F05 /* WCDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87A7BE3520B6651500656F05 /* WCDB.framework */; };
 		98CA6CB9CE7F0E99B11865F8 /* Pods_MMDatabaseKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3290A9E0805A7495904BC4D3 /* Pods_MMDatabaseKit_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +66,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B1302EA22CF09AE31ADAD5C /* Pods-MMDatabaseKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMDatabaseKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MMDatabaseKit_Example/Pods-MMDatabaseKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87A7BE3520B6651500656F05 /* WCDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WCDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		894D5879AB620BFE1795DF7F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BAE44027548B63E2CC724AFB /* Pods_MMDatabaseKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMDatabaseKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -74,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87A7BE3620B6651500656F05 /* WCDB.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -130,6 +133,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				87A7BE3520B6651500656F05 /* WCDB.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
