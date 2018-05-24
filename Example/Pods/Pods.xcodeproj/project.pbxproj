@@ -2290,6 +2290,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/WCDB\"",
+					"\"$(PODS_ROOT)/WCDB\"",
 				);
 				GCC_PREFIX_HEADER = "Target Support Files/MMDatabaseKit/MMDatabaseKit-prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -2608,6 +2609,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/WCDB\"",
+					"\"$(PODS_ROOT)/WCDB\"",
 				);
 				GCC_PREFIX_HEADER = "Target Support Files/MMDatabaseKit/MMDatabaseKit-prefix.pch";
 				HEADER_SEARCH_PATHS = (
