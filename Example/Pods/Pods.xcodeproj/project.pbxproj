@@ -2296,6 +2296,7 @@
 					"\"${PODS_ROOT}/Headers/Private\"",
 					"\"${PODS_ROOT}/Headers/Public\"",
 					"${SRCROOT}/**",
+					"\"$(PROJECT_DIR)/MyMoney/MMDatabaseKit/Example/Pods/WCDB\"",
 				);
 				INFOPLIST_FILE = "Target Support Files/MMDatabaseKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -2613,6 +2614,7 @@
 					"\"${PODS_ROOT}/Headers/Private\"",
 					"\"${PODS_ROOT}/Headers/Public\"",
 					"${SRCROOT}/**",
+					"\"$(PROJECT_DIR)/MyMoney/MMDatabaseKit/Example/Pods/WCDB\"",
 				);
 				INFOPLIST_FILE = "Target Support Files/MMDatabaseKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
