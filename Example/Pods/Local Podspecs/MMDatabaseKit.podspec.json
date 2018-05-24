@@ -1,6 +1,6 @@
 {
   "name": "MMDatabaseKit",
-  "version": "2.3",
+  "version": "2.5",
   "summary": "A short description of MMDatabaseKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/MMComponent/MMDatabaseKit",
@@ -13,10 +13,23 @@
   },
   "source": {
     "git": "https://github.com/MMComponent/MMDatabaseKit.git",
-    "tag": "2.3"
+    "tag": "2.5"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "MMDatabaseKit/Classes/**/*"
+  "source_files": "MMDatabaseKit/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "WCDB",
+      "dependencies": {
+        "WCDB": [
+
+        ]
+      },
+      "xcconfig": {
+        "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/WCDB"
+      }
+    }
+  ]
 }
