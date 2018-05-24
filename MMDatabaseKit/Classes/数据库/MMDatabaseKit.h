@@ -6,6 +6,6 @@
 //
 
 
-#import <WCDB/WCDB-umbrella.h>
+#import <WCDB/WCDB.h>
 
 
