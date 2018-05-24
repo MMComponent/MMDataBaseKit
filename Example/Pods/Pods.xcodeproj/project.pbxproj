@@ -2286,7 +2286,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = "\"${PODS_CONFIGURATION_BUILD_DIR}/WCDB\"";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/WCDB\"",
+					"\"$(PODS_ROOT)/WCDB\"",
+				);
 				GCC_PREFIX_HEADER = "Target Support Files/MMDatabaseKit/MMDatabaseKit-prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"\"${PODS_ROOT}/Headers/Private\"",
@@ -2599,7 +2602,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = "\"${PODS_CONFIGURATION_BUILD_DIR}/WCDB\"";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/WCDB\"",
+					"\"$(PODS_ROOT)/WCDB\"",
+				);
 				GCC_PREFIX_HEADER = "Target Support Files/MMDatabaseKit/MMDatabaseKit-prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"\"${PODS_ROOT}/Headers/Private\"",
