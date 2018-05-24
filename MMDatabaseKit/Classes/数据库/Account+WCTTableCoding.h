@@ -8,6 +8,7 @@
 #import "Account.h"
 #import "MMDatabaseKit.h"
 
+
 @interface Account (WCTTableCoding) <WCTTableCoding>
 
 WCDB_PROPERTY(accountID)
