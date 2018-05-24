@@ -6,7 +6,7 @@
 //
 
 #import "Account.h"
-#import <WCDB/WCDB.h>
+#import "MMDatabaseKit.h"
 
 @interface Account (WCTTableCoding) <WCTTableCoding>
 
