@@ -16,6 +16,7 @@
 #import "Bill.h"
 #import "Book+WCTTableCoding.h"
 #import "Book.h"
+#import "MMDatabaseKit.h"
 
 FOUNDATION_EXPORT double MMDatabaseKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char MMDatabaseKitVersionString[];

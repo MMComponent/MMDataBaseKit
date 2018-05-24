@@ -1,29 +1,23 @@
 PODS:
-  - MMDatabaseKit (2.6)
+  - MMDatabaseKit (3.2):
+    - MMDatabaseKit/WCDB (= 3.2)
+  - MMDatabaseKit/WCDB (3.2):
+    - WCDB
   - WCDB (1.0.6):
     - WCDB/sqlcipher (= 1.0.6)
   - WCDB/sqlcipher (1.0.6)
 
 DEPENDENCIES:
   - MMDatabaseKit (from `../`)
-  - WCDB (from `https://github.com/Tencent/wcdb.git`, branch `master`)
 
 EXTERNAL SOURCES:
   MMDatabaseKit:
     :path: ../
-  WCDB:
-    :branch: master
-    :git: https://github.com/Tencent/wcdb.git
-
-CHECKOUT OPTIONS:
-  WCDB:
-    :commit: cd1dc38bd31408189bcca6db58768bab62e47dba
-    :git: https://github.com/Tencent/wcdb.git
 
 SPEC CHECKSUMS:
-  MMDatabaseKit: 44e4144ac6adbacb96b1892aa70beb915cd38125
+  MMDatabaseKit: 5ffd84650e983053c84f5e48b46685cec7bd2d23
   WCDB: 4d2926bf695b2e00d785b50afd32c2dcc8cbbd98
 
-PODFILE CHECKSUM: 05057e27beae050d58ba559bec694152f244a693
+PODFILE CHECKSUM: 95477b75403ecc2418c3f8e035a93c590adc34dd
 
 COCOAPODS: 1.4.0

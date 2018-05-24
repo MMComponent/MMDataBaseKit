@@ -4,7 +4,7 @@ use_frameworks!
 
 target 'MMDatabaseKit_Example' do
   pod 'MMDatabaseKit', :path => '../'
-  pod 'WCDB',git: 'https://github.com/Tencent/wcdb.git' , branch: 'master'
+#  pod 'WCDB',git: 'https://github.com/Tencent/wcdb.git' , branch: 'master'
   target 'MMDatabaseKit_Tests' do
     inherit! :search_paths
 
